@@ -1,0 +1,9 @@
+check,status,notes
+Unit of analysis is clearly defined,Complete,One row per origin-destination route
+Key columns are identified,Complete,origin + dest; 0 missing key values
+Duplicate entity rows checked,Complete,0 duplicate origin-dest keys found with duplicated().sum()
+Missing values checked,Complete,25 missing cells found with isna().sum(); document them in the data dictionary
+Impossible or suspicious values reviewed,Complete,"0 nonpositive flight counts, distances, or air times"
+Target variable reviewed,Complete,avg_arr_delay reviewed as possible target; 1 missing target values
+Data dictionary complete,Complete,11 dictionary rows for 11 ABT columns; 0 blank documentation cells
+Transformation summary written,Complete,Demo summary written in Section 7; write your project version separately

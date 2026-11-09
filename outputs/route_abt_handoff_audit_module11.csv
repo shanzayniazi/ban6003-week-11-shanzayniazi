@@ -1,0 +1,2 @@
+abt_rows,dictionary_rows,dictionary_matches_abt_columns,duplicate_route_keys,missing_key_values,nonpositive_flight_counts,nonpositive_average_distance,nonpositive_average_air_time,missing_target_values,undocumented_dictionary_cells
+224,11,True,0,0,0,0,0,1,0
